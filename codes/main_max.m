@@ -12,9 +12,9 @@ maximal_schedule_matrix = [ % six grid
         0 0 1 1];
 maximal_arrival = frame_size; % maximum packet number
 seed = rng('shuffle'); % fix rng seed
-maximal_iteration_num = 30; % maximum iteration
-maximal_traffic_num = 500; % number of traffic patterns
-interference_degree = 3;
+maximal_iteration_num = 3; % maximum iteration
+maximal_traffic_num = 5; % number of traffic patterns
+interference_degree = 2;
 
 % read current ratio-speedup-diagram
 rsd = ones(1, interference_degree); % rsd initialized to an upper bound
