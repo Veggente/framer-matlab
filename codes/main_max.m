@@ -2,8 +2,8 @@
 clear all; clc;
 
 frame_size = 3; % frame size
-network_size = 6;
-maximal_schedule_matrix = [ % six grid
+network_size = 9;
+maximal_schedule_matrix = [ % nine grid
         1 1 0 0;
         0 0 1 0;
         1 0 0 1;
